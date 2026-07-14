@@ -5,7 +5,7 @@
 Vortyx is a modified Linux kernel optimized for performace. Made for x86_64 processors.
 
 ## changes:
-
+```text
 / makefile changes
 │
 ├── general setup
@@ -18,7 +18,7 @@ Vortyx is a modified Linux kernel optimized for performace. Made for x86_64 proc
         └── [*]compressed cache for swap pages
             ├── [*]enable the compressed cache for swap pages by default
             └── default compressor (lz4)
-
+```
 
 tree generated with https://www.text-tree-generator.com/
 
