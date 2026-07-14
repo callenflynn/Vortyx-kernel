@@ -1,5 +1,45 @@
-Linux kernel
+Vortyx kernel
 ============
+
+Vortyx is a modified Linux kernel optimized for performace. Made for x86_64 processors.
+
+changes:
+
+/ makefile changes
+│
+├── general setup
+│   ├── (vortyx) local version
+│   └── kernel compression mode (zstd)
+├── kernel hacking
+│   └── []kernel debugging
+└── memory management options
+    └── support for paging of anonymous memory (swap)
+        └── [*]compressed cache for swap pages
+            ├── [*]enable the compressed cache for swap pages by default
+            └── default compressor (lz4)
+
+
+tree generated with https://www.text-tree-generator.com/
+
+
+building
+```
+make vortyx_defconfig
+```
+
+build with ccache reccomended if you are building multiple times
+```
+sudo apt install ccache
+```
+usage:
+```
+make CC="ccache gcc" -j$(nproc)
+```
+
+
+
+
+old README below:
 
 The Linux kernel is the core of any Linux operating system. It manages hardware,
 system resources, and provides the fundamental services for all other software.
