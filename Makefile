@@ -2,8 +2,8 @@
 VERSION = 7
 PATCHLEVEL = 2
 SUBLEVEL = 0
-EXTRAVERSION = -rc3
-NAME = Baby Opossum Posse
+EXTRAVERSION = -vortex
+NAME = Eerie
 
 # *DOCUMENTATION*
 # To see a list of typical targets execute "make help"
