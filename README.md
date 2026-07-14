@@ -1,8 +1,8 @@
 ![vortyx banner](assets/vortyx-banner2.png)
 # Vortyx kernel
 
+> **Vortyx** *(pronounced: VOR-tiks)* is a modified Linux kernel optimized for performance, designed specifically for x86_64 processors.
 
-Vortyx is a modified Linux kernel optimized for performace. Made for x86_64 processors.
 
 ## changes:
 ```text
