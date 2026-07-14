@@ -33,7 +33,8 @@ make vortyx_defconfig
 
 
 
-old README below:
+
+# Linux Kernel README below
 
 The Linux kernel is the core of any Linux operating system. It manages hardware,
 system resources, and provides the fundamental services for all other software.
