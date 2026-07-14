@@ -11,13 +11,20 @@
 ├── general setup
 │   ├── (vortyx) local version
 │   └── kernel compression mode (zstd)
+├── power management and acpi options
+│   ├── default compressor (lz4)
+│   └── cpu frequency scaling
+│       └── default cpufreq governor (performance)
 ├── kernel hacking
 │   └── []kernel debugging
-└── memory management options
-    └── support for paging of anonymous memory (swap)
-        └── [*]compressed cache for swap pages
-            ├── [*]enable the compressed cache for swap pages by default
-            └── default compressor (lz4)
+├── memory management options
+│   └── support for paging of anonymous memory (swap)
+│       └── [*]compressed cache for swap pages
+│           ├── [*]enable the compressed cache for swap pages by default
+│           └── default compressor (lz4)
+└── device drivers
+    └── misc devices
+        └── [*]nt synchronization primitive emulation
 ```
 
 tree generated with https://www.text-tree-generator.com/
