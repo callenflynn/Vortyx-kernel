@@ -1,9 +1,9 @@
-Vortyx kernel
-============
+#Vortyx kernel
+
 
 Vortyx is a modified Linux kernel optimized for performace. Made for x86_64 processors.
 
-changes:
+## changes:
 
 / makefile changes
 │
@@ -22,7 +22,7 @@ changes:
 tree generated with https://www.text-tree-generator.com/
 
 
-building
+## building
 ```
 make vortyx_defconfig
 ```
