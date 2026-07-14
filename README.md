@@ -28,9 +28,33 @@ tree generated with https://www.text-tree-generator.com/
 make vortyx_defconfig
 ```
 
+## patches
+run after pulling from the linux kernel upstream to apply patches:
+```bash
+patch -p1 < patches/0002-clear-patches.patch
+patch -p1 < patches/0003-glitched-base.patch
+patch -p1 < patches/0003-glitched-cfs.patch
+patch -p1 < patches/0003-glitched-eevdf-additions.patch
+patch -p1 < patches/0006-add-acs-overrides_iommu.patch
+patch -p1 < patches/0012-misc-additions.patch
+patch -p1 < patches/0013-optimize_harder_O3.patch
+```
 
+### getting patches
 
+get them from https://github.com/Frogging-Family/linux-tkg/tree/master/linux-tkg-patches
 
+always grab latest patches
+
+patches needed:
+
+/0006-add-acs-overrides_iommu.patch
+/0002-clear-patches.patch
+/0003-glitched-base.patch
+/0003-glitched-cfs.patch
+/0003-glitched-eevdf-additions.patch
+/0012-misc-additions.patch
+/0013-optimize_harder_O3.patch
 
 
 
