@@ -1,4 +1,5 @@
-#Vortyx kernel
+![vortyx banner](assets/vortyx-banner2.png)
+# Vortyx kernel
 
 
 Vortyx is a modified Linux kernel optimized for performace. Made for x86_64 processors.
