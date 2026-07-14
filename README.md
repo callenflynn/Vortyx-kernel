@@ -28,14 +28,7 @@ tree generated with https://www.text-tree-generator.com/
 make vortyx_defconfig
 ```
 
-build with ccache reccomended if you are building multiple times
-```
-sudo apt install ccache
-```
-usage:
-```
-make CC="ccache gcc" -j$(nproc)
-```
+
 
 
 
